@@ -1,7 +1,6 @@
-<?php 
-    $gaji = 8000000; 
-    $pajak = 0.1; 
-    $thp = $gaji - ($gaji * $pajak); 
-    echo "Gaji sebelum pajak = Rp. $gaji <br>"; 
-    echo "Gaji Bersih = Rp. $thp"; 
+<?php
+define("PI", 3.14159);
+$r = readline("Masukkan jari-jari: ");
+$luas = PI * $r * $r;
+echo "Luas lingkaran = $luas";
 ?>
